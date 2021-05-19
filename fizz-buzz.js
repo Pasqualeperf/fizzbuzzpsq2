@@ -50,4 +50,4 @@ function fizzBuzz(min, max, invert) {
 
 // params: [min-number : number, max-number : number, invert? : boolean]
 
-fizzBuzz(1, 5, true);
+fizzBuzz(1, 50, true);
