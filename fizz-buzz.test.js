@@ -1,4 +1,3 @@
-const { array } = require('yargs');
 const fizzBuzz = require('./fizz-buzz');
 
 test('add min number and max number and true or false', () => {

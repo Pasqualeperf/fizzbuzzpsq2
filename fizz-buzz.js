@@ -3,12 +3,12 @@ module.exports = fizzBuzz;
 function fizzBuzz(min, max, invert) {
     let result = [];
 
-    let boo = "Boo";
-    let foo = "Foo";
+    let fizz = "Fizz";
+    let buzz = "Buzz";
 
     if (invert) {
-        boo = "Foo";
-        foo = "Boo";
+        fizz = "Buzz";
+        buzz = "Fizz";
     }
 
     for (let i = min; i <= max; i++) {
@@ -17,10 +17,10 @@ function fizzBuzz(min, max, invert) {
             result.push("FooBoo");
         }
         else if (i % 11 === 0) {
-            result.push(boo);
+            result.push("Boo");
         }
         else if (i % 7 === 0) {
-            result.push(foo);
+            result.push("Foo");
         }
         else if (i % 3 === 0 && i % 5 === 0) {
             result.push("FTW");
@@ -29,10 +29,10 @@ function fizzBuzz(min, max, invert) {
             result.push("GG");
         }
         else if (i % 5 === 0) {
-            result.push("Buzz");
+            result.push(buzz);
         }
         else if (i % 3 === 0) {
-            result.push("Fizz");
+            result.push(fizz);
         }
         else if (i > 95) {
             result.push("Big");
@@ -50,4 +50,4 @@ function fizzBuzz(min, max, invert) {
 
 // params: [min-number : number, max-number : number, invert? : boolean]
 
-fizzBuzz(1, 100, true);
+fizzBuzz(1, 5, true);
