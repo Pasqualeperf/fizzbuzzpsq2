@@ -1,0 +1,22 @@
+{
+  "name": "fizzbuzzpsq2",
+  "version": "1.0.0",
+  "description": "FizzBuzz exercise",
+  "main": "fizz-buzz.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pasqualeperf/fizzbuzzpsq2.git"
+  },
+  "author": "pasqualeperfetto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pasqualeperf/fizzbuzzpsq2/issues"
+  },
+  "homepage": "https://github.com/Pasqualeperf/fizzbuzzpsq2#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
